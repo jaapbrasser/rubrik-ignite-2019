@@ -5,7 +5,7 @@ Import-Module SQLServer
 # Check for CLEANUP variable, and set it to false if not found
 if($null -eq $env:CLEANUP) { $env:CLEANUP = $false }
 
-$sleep = 60
+$sleep = 30
 $clusterip = "192.168.150.121"
 $vmname = "DEMO-WIN-ME"
 $azid = "70b05bfa-7ea1-4412-809b-648306a624d7"
