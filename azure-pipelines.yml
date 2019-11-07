@@ -11,4 +11,4 @@ steps:
     filePath: 'dbcc.ps1'
   env:
     KEY: $(key)
-    CLEANUP: true
+    CLEANUP: false
